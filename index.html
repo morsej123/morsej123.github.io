@@ -1,149 +1,304 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<!DOCTYPE Html>
 <html>
+
+<b>
+	
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+  <title>Jennifer Morse Math</title>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Forest Ecosystem Management Simulation&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.tooltip {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: blue;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: underline;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.tooltip .tooltiptext {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>visibility: hidden;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 250px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f9f9f9;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>bottom: 100%;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-left: -125px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.tooltip:hover .tooltiptext {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>visibility: visible;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.decision {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px 0;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.decision button {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;h1&gt;Forest Ecosystem Management Simulation&lt;/h1&gt;</p>
-<p class="p1">&lt;p&gt;Welcome to the Forest Ecosystem Management Simulation. You are a forest manager responsible for maintaining the health of a forest ecosystem. Your decisions will affect biodiversity, forest health, and the needs of the local community. Make your choices wisely!&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;h2&gt;Scenario&lt;/h2&gt;</p>
-<p class="p1">&lt;p&gt;The forest is facing several challenges, including invasive species, forest fires, and the needs of the local community for resources. Your goal is to balance these challenges to maintain a healthy ecosystem.&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div class="decision"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Decision 1: Invasive Species&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;An invasive plant species has been spreading rapidly in the forest, outcompeting native plants.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="tooltip"&gt;What are invasive species?</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="tooltiptext"&gt;Invasive species are non-native organisms that cause harm to the environment, economy, or human health. They can outcompete native species for resources, leading to a loss of biodiversity.&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;How will you address this issue?&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision1('remove')"&gt;Remove invasive species manually&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision1('chemical')"&gt;Use chemical herbicides&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision1('ignore')"&gt;Ignore the problem&lt;/button&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div id="decision2" class="decision" style="display:none;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Decision 2: Forest Fires&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;There is an increased risk of forest fires due to dry conditions and accumulated dead wood.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="tooltip"&gt;Why are forest fires important?</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="tooltiptext"&gt;Forest fires are a natural part of many ecosystems and can help clear out dead material, promote new growth, and maintain ecological balance. However, they can also be destructive, especially if they get out of control.&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;How will you manage the risk of forest fires?&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision2('controlled')"&gt;Conduct controlled burns&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision2('clear')"&gt;Clear dead wood&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision2('no_action')"&gt;Take no action&lt;/button&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div id="decision3" class="decision" style="display:none;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Decision 3: Community Needs&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;The local community relies on the forest for resources like timber and recreational space.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="tooltip"&gt;Sustainable resource use</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="tooltiptext"&gt;Sustainable resource use involves managing resources in a way that meets current needs without compromising the ability of future generations to meet their own needs. This includes practices like selective logging and maintaining recreational areas.&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;How will you balance the community's needs with forest health?&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision3('selective')"&gt;Implement selective logging&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision3('recreation')"&gt;Develop recreational areas&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="handleDecision3('exploit')"&gt;Allow unrestricted resource use&lt;/button&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div id="outcome" style="display:none;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Outcome&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p id="outcomeText"&gt;&lt;/p&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>function handleDecision1(choice) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('decision2').style.display = 'block';</p>
-<p class="p1"><span class="Apple-converted-space">        </span>if (choice === 'remove') {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>alert("You chose to remove the invasive species manually. This is labor-intensive but avoids chemical impacts on the ecosystem.");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>} else if (choice === 'chemical') {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>alert("You chose to use chemical herbicides. This is effective but may harm non-target species and pollute water sources.");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>alert("You chose to ignore the problem. The invasive species may continue to spread and further harm native biodiversity.");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>function handleDecision2(choice) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('decision3').style.display = 'block';</p>
-<p class="p1"><span class="Apple-converted-space">        </span>if (choice === 'controlled') {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>alert("You chose to conduct controlled burns. This reduces fire risk and promotes new growth but requires careful planning.");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>} else if (choice === 'clear') {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>alert("You chose to clear dead wood. This reduces fire risk but removes habitat for some species.");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>alert("You chose to take no action. The risk of uncontrolled forest fires remains high.");</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>function handleDecision3(choice) {</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('outcome').style.display = 'block';</p>
-<p class="p1"><span class="Apple-converted-space">        </span>let outcomeText = "";</p>
-<p class="p1"><span class="Apple-converted-space">        </span>if (choice === 'selective') {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>outcomeText = "You implemented selective logging. This balances resource use with forest health, maintaining biodiversity and providing community resources.";</p>
-<p class="p1"><span class="Apple-converted-space">        </span>} else if (choice === 'recreation') {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>outcomeText = "You developed recreational areas. This supports community well-being and promotes conservation awareness.";</p>
-<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>outcomeText = "You allowed unrestricted resource use. This may lead to overexploitation, harming the forest ecosystem and diminishing resources for future generations.";</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('outcomeText').innerText = outcomeText;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
-</html>
+
+<meta name="Morse" content="Morse Webpage">
+
+
+<body bgcolor="lightgray">
+
+<body text="black">
+
+<TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="4" CELLSPACING="1">
+ <TR ALIGN="left">	
+      <TH COLSPAN="2">
+	      <FONT FACE="arial,helvetica" COLOR="black" >
+         <H3>
+         JENNIFER MORSE
+         </H3>
+
+      </TH>
+	      </tr>
+
+</TABLE>
+
+<TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="4" CELLSPACING="3">
+
+ <TR ALIGN="left">	
+ 
+	
+	    <Td>
+<img src="./kid.jpg" border=2 height=200 align=top></img>
+      </Td>
+
+
+      <Td>
+	         Professor
+	     
+      <br>
+<a href="http://www.math.virginia.edu/">Department of Mathematics</a> <br>
+	      University of Virginia<br>
+141 Cabell Drive<br>
+Charlottesville, VA 22904<br>
+U.S.A. <br>
+<p>
+<p>
+<i>Office: Kerchof 206 <br>
+Email:   morsej123 at gmail dot com</a>
+</i>
+   
+
+	</TD>
+	   </TR>
+	
+	
+
+   <TR ALIGN="left">
+      <TD>
+	      	      <FONT FACE="arial,helvetica" COLOR="black" >
+<h3>RESEARCH </h3>
+</font>
+	Algebraic Combinatorics
+	      
+<p>
+  <a href="https://arxiv.org/search/?query=Morse%2C+Jennifer&searchtype=author&abstracts=show&order=-announced_date_first&size=50">
+  Publications</a>
+  <p>
+	  <p>
+		  <p>
+	 Generous support from
+		  <p>
+ <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1855804&HistoricalAwards=false">
+National Science Foundation
+</a>
+		  <br>
+		  <a href="https://www.simonsfoundation.org/2021/02/04/2021-simons-fellows-in-mathematics-and-theoretical-physics-announced/"> Simons Foundation</a>
+	<br>
+<p>
+	&nbsp
+<p>
+
+		&nbsp
+<p>
+	
+      </TD>
+
+      <TD>
+	
+	      
+	      <FONT FACE="arial,helvetica" COLOR="black" >
+		      <h3>
+UPCOMING CONFERENCES
+		      </h3>
+</font>
+      <p>
+ <ul>
+	      
+ <li>
+<a href="http://fpsac.org/">
+  Formal Power Series and Algebraic Combinatorics </a>
+	<ul>
+	<a href="https://fpsac2024.rub.de/">
+	Bochum, Germany</a>, July 22-26, 2024 
+	</ul>
+	<ul>
+	<a href="http://fpsac23.math.ucdavis.edu/">
+	UC Davis (USA)</a>, July 17-21, 2023
+	</ul>
+
+</li>
+
+<p>
+	 			       <li>
+<a href="https://math.virginia.edu/ims/workshop-spring-2024/">
+  Quantum structures in Lie Theory </a>, Charlottesville at UVA, March 1--3, 2024
+</li>
+		      <p>
+
+			      
+	 			       <li>
+<a href="https://math.virginia.edu/random-lie-2024/">
+  Randomness and Lie theoretic structures </a>, Charlottesville at UVA, March 4--5, 2024
+</li>
+		      <p>
+
+
+
+			      
+			       <li>
+<a href="http://www.maagc.info/">
+  Mid-Atlantic Algebra and Combinatorics </a>, Richmond at VCU, Dec 1-2, 2023
+
+</li>
+		      <p>
+			      <li>
+			      <a href="https://2023.permutationpatterns.com/">
+  Permutation Patterns </a>, Dijon, July 3-9, 2023
+
+</li>
+		      <p>
+		      <li>
+<a href="http://www.canadam.ca/">
+	CanaDAM
+	</a>, Winnipeg, June 5–8, 2023
+	      </li>
+
+<p>
+	<li>
+<a href="https://sites.google.com/ncsu.edu/selieworkshop2023">
+	13th Southeastern Lie Theory Workshop,
+</a> Raleigh at NCSU,	
+	May 12-14, 2023
+</li>
+	<p>
+		<li>
+<a href="https://www.albany.edu/~sdc/AWM21/">
+		Women in Algebra and Combinatorics,
+			</a> SUNY at Albany,
+			April 28-30, 2023
+		</li>
+		<p>
+	
+</ul>
+	<p>
+
+	
+	      <p>
+
+	
+	
+</TD>
+</TR>
+</TABLE>
+	
+<TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="4" CELLSPACING="1">
+   <TR ALIGN="LEFT">
+      <TH COLSPAN="1">
+<FONT FACE="arial,helvetica" COLOR="black" >
+RECENT Publications
+</font>
+      </TH>
+  <TR ALIGN="left">
+      <TH>
+  <ul>
+<li>
+J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+<a href=" https://arxiv.org/abs/2307.06517	">
+<i>A raising operator formula for Macdonald polynomials</i>
+</a>.
+ArXiv e-prints.	 
+
+	
+<li>
+J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+<a href="https://arxiv.org/pdf/2112.07070.pdf">
+<i>Dens, nests, and the Loehr-Warrington conjecture</i>
+</a>.
+ArXiv e-prints.	 	
+	  
+	  
+<li>
+J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+<a href="https://arxiv.org/pdf/2112.07063.pdf">
+<i>LLT polynomials in the Schiffmann algebra</i>
+</a>.
+ArXiv e-prints.	 	
+	
+	  <li>
+J. Blasiak, J. Morse and A. Pun,
+<a href="https://arxiv.org/pdf/2007.04952.pdf">
+<i>Demazure crystals and the Schur positivity of Catalan functions</i>
+</a>.  Invent. math. (2024). https://doi.org/10.1007/s00222-024-01237-5
+
+	  
+	  
+	  
+  <li>
+J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+<a href="https://arxiv.org/abs/2102.08815">
+<i>A proof of the Extended Delta Conjecture</i>
+</a>. Forum of Math, Pi. Volume 11 (2023).	
+ 
+	  
+  <li>
+J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+<a href="https://arxiv.org/abs/2102.07931">
+<i>A Shuffle Theorem for paths under any line</i>
+</a>.
+Forum of Math, Pi. Volume 11 (2023).	 
+	  
+	  
+  <li>
+J. Blasiak, J. Morse and G. Seelinger,
+<a href="https://arxiv.org/abs/2010.01759">
+<i>K-theoretic Catalan functions</i>
+</a>. Adv in Math. 404B (2022) 108421
+  
+	  
+
+
+<li> L. Chen, E. Milićević, and J. Morse, 
+<a href="https://arxiv.org/pdf/2008.13765.pdf">
+<i>An affine approach to Peterson comparison</i> </a>.
+	Algebr Represent Theor (2021). https://doi.org/10.1007/s10468-021-10075-5.
+
+<li>
+J. Blasiak, J. Morse, A. Pun, and D. Summers, 
+<a href="https://arxiv.org/pdf/1811.02490.pdf">
+<i>k-Schur expansions of Catalan functions</i></a>.
+Adv. in Math., 371 (2020) 107209.
+<li>
+J. Morse, J. Pan, W. Poh, A. Schilling, 
+<a href="https://arxiv.org/pdf/1911.08732.pdf">
+<i>A crystal on decreasing factorizations in the 0-Hecke monoid</i></a>.
+Electronic J Comb. 27(2) (2020).
+
+<li> J. Blasiak, J. Morse, A. Pun, and D. Summers, 
+<a href="https://arxiv.org/pdf/1804.03701.pdf">
+<i>Catalan functions and
+k-Schur positivity</i></a>. J Amer Math Soc, 32 (2019) 921--963.
+
+<li> J. Morse and R. Kaliszewski, 
+<a href="https://arxiv.org/pdf/1710.00801.pdf">
+<i>Colorful combinatorics of Macdonald polynomials</i></a>.
+European J of Comb, 81 (2019), 354-377.
+
+</li>
+</ul>
+
+
+      </TH>
+   </TR>
+
+
+
+
+										
+
+<p>
+
+
+
+
+
+
+</TD>
+</tr>
+												     
+
+<TD BGCOLOR="pink">
+<FONT FACE="arial,helvetica" COLOR="pink" >
+</FONT>
+</TD>
+<TR> <TD><p><p></TD> </TR> 
+												       </TABLE>
+
+												       </TD>
+												       </TR>
