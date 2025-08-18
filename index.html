@@ -1,340 +1,197 @@
-
-
-<!DOCTYPE Html>
+<!DOCTYPE html>
 <html>
-
-<b>
-	
 <head>
   <title>Jennifer Morse Math</title>
+  <meta name="Morse" content="Morse Webpage">
+  <style>
+    body {
+      background-color: lightgray;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    .section {
+      border: 2px solid black;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: white;
+    }
+    h2 {
+      margin-top: 0;
+      color: black;
+    }
+    img {
+      border: 2px solid black;
+      height: 200px;
+      margin-right: 20px;
+    }
+    .profile {
+      display: flex;
+      align-items: flex-start; /* aligns items at top */
+    }
+    .profile-info {
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .hidden {
+      display: none;
+    }
+    .toggle-btn {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #eee;
+      border: 1px solid #999;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
-<meta name="Morse" content="Morse Webpage">
+<body>
 
+<!-- Section 1: Name, Address, Photo -->
+<div class="section">
+  <h2>Jennifer Morse</h2>
+  <div class="profile">
+    <img src="./kid.jpg" alt="Profile photo">
+    <div class="profile-info">
+      <div>
+        Professor <br>
+        <a href="http://www.math.virginia.edu/">Department of Mathematics</a><br>
+        University of Virginia<br>
+        141 Cabell Drive<br>
+        Charlottesville, VA 22904<br>
+        U.S.A. <br>
+        Office: Kerchof 206 <br>
+        Email: morsej123 at gmail dot com
+      </div>
+    </div>
+  </div>
+</div>
 
-<body bgcolor="lightgray">
-
-<body text="black">
-
-<TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="4" CELLSPACING="1">
- <TR ALIGN="left">	
-      <TH COLSPAN="2">
-	      <FONT FACE="arial,helvetica" COLOR="black" >
-         <H3>
-         JENNIFER MORSE
-         </H3>
-
-      </TH>
-	      </tr>
-
-</TABLE>
-
-<TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="4" CELLSPACING="3">
-
- <TR ALIGN="left">	
- 
-	
-	    <Td>
-<img src="./kid.jpg" border=2 height=200 align=top></img>
-      </Td>
-
-
-      <Td>
-	         Professor
-	     
-      <br>
-<a href="http://www.math.virginia.edu/">Department of Mathematics</a> <br>
-	      University of Virginia<br>
-141 Cabell Drive<br>
-Charlottesville, VA 22904<br>
-U.S.A. <br>
-<p>
-<p>
-<i>Office: Kerchof 206 <br>
-Email:   morsej123 at gmail dot com</a>
-</i>
-   
-
-	</TD>
-	   </TR>
-	
-	
-
-   <TR ALIGN="left">
-      <TD>
-	      	      <FONT FACE="arial,helvetica" COLOR="black" >
-<h3>RESEARCH </h3>
-</font>
-	Algebraic Combinatorics
-	      
-<p>
-  <a href="https://arxiv.org/search/?query=Morse%2C+Jennifer&searchtype=author&abstracts=show&order=-announced_date_first&size=50">
-  Publications</a>
+<!-- Section 2: Research and Grants -->
+<div class="section">
+  <h2>Research</h2>
+  Algebraic Combinatorics
   <p>
-	  <p>  <p>
-		  <p>
-	 Generous support from
-		  <br>
- <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2154281&HistoricalAwards=false">
-National Science Foundation
-</a>
-		  <br>
-		  <a href="https://www.simonsfoundation.org/2021/02/04/2021-simons-fellows-in-mathematics-and-theoretical-physics-announced/"> Simons Foundation</a>
-	<br>
-<p>
-	&nbsp
-<p>
+    <a href="https://arxiv.org/search/?query=Morse%2C+Jennifer&searchtype=author&abstracts=show&order=-announced_date_first&size=50">Publications</a>
+  </p>
+  <p>
+    Generous support from: <br>
+    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2154281&HistoricalAwards=false">National Science Foundation</a><br>
+    <a href="https://www.simonsfoundation.org/2021/02/04/2021-simons-fellows-in-mathematics-and-theoretical-physics-announced/">Simons Foundation</a>
+  </p>
+</div>
 
-		&nbsp
-<p>
-	
-      </TD>
+<!-- Section 3: Upcoming Conferences -->
+<div class="section">
+  <h2>Upcoming Conferences</h2>
+  <ul id="conference-list">
+    <li>
+      <a href="http://fpsac.org/">Formal Power Series and Algebraic Combinatorics</a><br>
+      <a href="https://www.math.sci.hokudai.ac.jp/sympo/fpsac2025/">Hokkaido University</a>, Sapporo, Japan, July 21–25, 2025
+    </li>
+    <li>
+      <a href="https://sites.google.com/view/coinvariantrings2025/">New perspectives of coinvariant rings</a><br>
+      RIMS, Kyoto University, July 14–18, 2025
+    </li>
+    <li>
+      <a href="https://qtcombinatoricsincortona.ulb.be/">qt-Combinatorics in Algebra, Geometry and Topology</a><br>
+      Cortona, Italy, June 9–13, 2025
+    </li>
 
-      <TD>
-	
-	      
-	      <FONT FACE="arial,helvetica" COLOR="black" >
-		      <h3>
-UPCOMING CONFERENCES
-		      </h3>
-</font>
-      <p>
- <ul> 
-	 <li>
-<a href="http://fpsac.org/">
-  Formal Power Series and Algebraic Combinatorics </a>
-	 <br>
-		 <a href="https://www.math.sci.hokudai.ac.jp/sympo/fpsac2025/"> Hokkaido University</a>, Sapporo, Japan, July 21-25, 2025
-	 </li>
-<li><a href="https://sites.google.com/view/coinvariantrings2025/">	New perspectives of coinvariant rings     </a>	
-	<br>
-Research Institute for
-Mathematical Sciences,
-Kyoto University,
-	July 14--18, 2025
-</li>
-	 
-<li><a href="https://qtcombinatoricsincortona.ulb.be/">
-		qt-Combinatorics in Algebra, Geometry and Topology</a>
-		<br>
-		 Cortona, Italy, June 9-13, 2025
-	</li>
-	  
-	 
-	<li><a href="https://www.albany.edu/~cz954339/2025China/CIM.html">
-		International Workshop on Schubert Calculus, Representation Theory, and Spectral Theory</a>
-		<br>
-		Chern Institute of Mathematics, Nankai University, Tianjin, China,May 26-30, 2025
-	</li>
-	  
-	 
-	 <li><a href="https://sites.google.com/ncsu.edu/conf-quantum-groups-rep2024/home">
-	 Quantum Groups and Representation Theory</a>
-		 <br>
-	 North Carolina State University, Raleigh, NC, October 12-15, 2024
-		 <br>
-			 On the occasion of Kailash Misra’s 70th birthday
-	  </li>
-	      
- <li>
-<a href="http://fpsac.org/">
-  Formal Power Series and Algebraic Combinatorics </a>
-	 <br>
-	<a href="https://fpsac2024.rub.de/">
-	Bochum, Germany</a>, July 22-26, 2024 
-	
-	
+    <!-- Hidden conferences start here -->
+    <div id="more-conferences" class="hidden">
+      <li>
+        <a href="https://www.albany.edu/~cz954339/2025China/CIM.html">International Workshop on Schubert Calculus, Representation Theory, and Spectral Theory</a><br>
+        Nankai University, Tianjin, China, May 26–30, 2025
+      </li>
+      <li>
+        <a href="https://sites.google.com/ncsu.edu/conf-quantum-groups-rep2024/home">Quantum Groups and Representation Theory</a><br>
+        NCSU, Raleigh, NC, Oct 12–15, 2024
+      </li>
+      <li>
+        <a href="https://fpsac2024.rub.de/">FPSAC 2024</a>, Bochum, Germany, July 22–26, 2024
+      </li>
+      <li>
+        <a href="https://math.virginia.edu/ims/workshop-spring-2024/">Quantum structures in Lie Theory</a>, UVA, March 1–3, 2024
+      </li>
+      <li>
+        <a href="https://math.virginia.edu/random-lie-2024/">Randomness and Lie theoretic structures</a>, UVA, March 4–5, 2024
+      </li>
+      <li>
+        <a href="http://www.maagc.info/">Mid-Atlantic Algebra and Combinatorics</a>, Richmond at VCU, Dec 1–2, 2023
+      </li>
+      <li>
+        <a href="https://2023.permutationpatterns.com/">Permutation Patterns</a>, Dijon, July 3–9, 2023
+      </li>
+      <li>
+        <a href="http://www.canadam.ca/">CanaDAM</a>, Winnipeg, June 5–8, 2023
+      </li>
+      <li>
+        <a href="https://sites.google.com/ncsu.edu/selieworkshop2023">13th Southeastern Lie Theory Workshop</a>, Raleigh at NCSU, May 12–14, 2023
+      </li>
+      <li>
+        <a href="https://www.albany.edu/~sdc/AWM21/">Women in Algebra and Combinatorics</a>, SUNY at Albany, April 28–30, 2023
+      </li>
+    </div>
+  </ul>
+  <button class="toggle-btn" onclick="toggleConferences()">Show more</button>
+</div>
 
-</li>
-
-
-	 			       <li>
-<a href="https://math.virginia.edu/ims/workshop-spring-2024/">
-  Quantum structures in Lie Theory </a>, Charlottesville at UVA, March 1--3, 2024
-</li>
-	
-
-			      
-	 			       <li>
-<a href="https://math.virginia.edu/random-lie-2024/">
-  Randomness and Lie theoretic structures </a>, Charlottesville at UVA, March 4--5, 2024
-</li>
-	
-
-
-
-			      
-			       <li>
-<a href="http://www.maagc.info/">
-  Mid-Atlantic Algebra and Combinatorics </a>, Richmond at VCU, Dec 1-2, 2023
-</li>
-		
-			      <li>
-			      <a href="https://2023.permutationpatterns.com/">
-  Permutation Patterns </a>, Dijon, July 3-9, 2023
-</li>  
-<li>		 
-<a href="http://www.canadam.ca/">
-	CanaDAM
-	</a>, Winnipeg, June 5–8, 2023
-	      </li>
-
-
-	<li>
-<a href="https://sites.google.com/ncsu.edu/selieworkshop2023">
-	13th Southeastern Lie Theory Workshop,
-</a> Raleigh at NCSU,	
-	May 12-14, 2023
-</li>
-	
-		<li>
-<a href="https://www.albany.edu/~sdc/AWM21/">
-		Women in Algebra and Combinatorics,
-			</a> SUNY at Albany,
-			April 28-30, 2023
-		</li>
-		<p>
-	
-</ul>
-	<p>
-
-	
-	
-	
-</TD>
-</TR>
-</TABLE>
-	
-<TABLE BORDER="5"    WIDTH="100%"   CELLPADDING="4" CELLSPACING="1">
-   <TR ALIGN="LEFT">
-      <TH COLSPAN="1">
-<FONT FACE="arial,helvetica" COLOR="black" >
-RECENT Publications
-</font>
-      </TH>
-  <TR ALIGN="left">
-      <TH>
+<!-- Section 4: Publications -->
+<div class="section">
+  <h2>Recent Publications</h2>
   <ul>
-<li>
-J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
-<a href="https://arxiv.org/pdf/2506.09015">
-<i>Flagged LLT polynomials, nonsymmetric plethysm, and nonsymmetric Macdonald polynomials</i>
-</a> (2025).
+    <li>J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/pdf/2506.09015"><i>Flagged LLT polynomials, nonsymmetric plethysm, and nonsymmetric Macdonald polynomials</i></a> (2025).</li>
+    <li>J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/pdf/2112.07070.pdf"><i>Dens, nests, and the Loehr-Warrington conjecture</i></a>, J Amer Math Soc (2025).</li>
+    <li>J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/abs/2307.06517"><i>A raising operator formula for Macdonald polynomials</i></a>, Forum of Math, Sigma (2025).</li>
+    <li>J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/pdf/2112.07063.pdf"><i>LLT polynomials in the Schiffmann algebra</i></a>, Journal für die reine und angewandte Mathematik (Crelles Journal), Volume 2024, Issue 811 (2024).</li>
+    <li>J. Blasiak, J. Morse, and A. Pun,
+      <a href="https://arxiv.org/pdf/2007.04952.pdf"><i>Demazure crystals and the Schur positivity of Catalan functions</i></a>, Invent. Math. (2024).</li>
+    <li>J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/abs/2102.08815"><i>A proof of the Extended Delta Conjecture</i></a>, Forum of Math, Pi, Volume 11 (2023).</li>
+    <li>J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/abs/2102.07931"><i>A Shuffle Theorem for paths under any line</i></a>, Forum of Math, Pi, Volume 11 (2023).</li>
+    <li>J. Blasiak, J. Morse, and G. Seelinger,
+      <a href="https://arxiv.org/abs/2010.01759"><i>K-theoretic Catalan functions</i></a>, Adv in Math. 404B (2022) 108421.</li>
+    <li>L. Chen, E. Milićević, and J. Morse,
+      <a href="https://arxiv.org/pdf/2008.13765.pdf"><i>An affine approach to Peterson comparison</i></a>, Algebr Represent Theor (2021).</li>
+    <li>J. Blasiak, J. Morse, A. Pun, and D. Summers,
+      <a href="https://arxiv.org/pdf/1811.02490.pdf"><i>k-Schur expansions of Catalan functions</i></a>, Adv. in Math., 371 (2020) 107209.</li>
+    <li>J. Morse, J. Pan, W. Poh, A. Schilling,
+      <a href="https://arxiv.org/pdf/1911.08732.pdf"><i>A crystal on decreasing factorizations in the 0-Hecke monoid</i></a>, Electron. J Comb. 27(2) (2020).</li>
+    <li>J. Blasiak, J. Morse, A. Pun, and D. Summers,
+      <a href="https://arxiv.org/pdf/1804.03701.pdf"><i>Catalan functions and k-Schur positivity</i></a>, J Amer Math Soc, 32 (2019) 921–963.</li>
+    <li>J. Morse and R. Kaliszewski,
+      <a href="https://arxiv.org/pdf/1710.00801.pdf"><i>Colorful combinatorics of Macdonald polynomials</i></a>, European J of Comb, 81 (2019), 354–377.</li>
+  </ul>
+</div>
 
+<script>
+  function toggleConferences() {
+    const more = document.getElementById("more-conferences");
+    const btn = document.querySelector(".toggle-btn");
+    if (more.classList.contains("hidden")) {
+      more.classList.remove("hidden");
+      btn.textContent = "Show less";
+    } else {
+      more.classList.add("hidden");
+      btn.textContent = "Show more";
+    }
+  }
+</script>
 
-
-	  
-	
-<li>
-J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
-<a href="https://arxiv.org/pdf/2112.07070.pdf">
-<i>Dens, nests, and the Loehr-Warrington conjecture</i>
-</a>.
-	J Amer Math Soc (2025).
-
-<li>
-J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
-<a href=" https://arxiv.org/abs/2307.06517	">
-<i>A raising operator formula for Macdonald polynomials</i>
-</a>.
-Forum of Math, Sigma (2025).	  
-	  
-<li>
-J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
-<a href="https://arxiv.org/pdf/2112.07063.pdf">
-<i>LLT polynomials in the Schiffmann algebra</i>
-</a>.
-Journal für die reine und angewandte Mathematik (Crelles
-Journal), Volume 2024, Issue 811 (2024).	
-	
-	  <li>
-J. Blasiak, J. Morse and A. Pun,
-<a href="https://arxiv.org/pdf/2007.04952.pdf">
-<i>Demazure crystals and the Schur positivity of Catalan functions</i>
-</a>.  Invent. math. (2024). https://doi.org/10.1007/s00222-024-01237-5
-
-	  
-	  
-	  
-  <li>
-J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
-<a href="https://arxiv.org/abs/2102.08815">
-<i>A proof of the Extended Delta Conjecture</i>
-</a>. Forum of Math, Pi. Volume 11 (2023).	
- 
-	  
-  <li>
-J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
-<a href="https://arxiv.org/abs/2102.07931">
-<i>A Shuffle Theorem for paths under any line</i>
-</a>.
-Forum of Math, Pi. Volume 11 (2023).	 
-	  
-	  
-  <li>
-J. Blasiak, J. Morse and G. Seelinger,
-<a href="https://arxiv.org/abs/2010.01759">
-<i>K-theoretic Catalan functions</i>
-</a>. Adv in Math. 404B (2022) 108421
-  
-	  
-
-
-<li> L. Chen, E. Milićević, and J. Morse, 
-<a href="https://arxiv.org/pdf/2008.13765.pdf">
-<i>An affine approach to Peterson comparison</i> </a>.
-	Algebr Represent Theor (2021). https://doi.org/10.1007/s10468-021-10075-5.
-
-<li>
-J. Blasiak, J. Morse, A. Pun, and D. Summers, 
-<a href="https://arxiv.org/pdf/1811.02490.pdf">
-<i>k-Schur expansions of Catalan functions</i></a>.
-Adv. in Math., 371 (2020) 107209.
-<li>
-J. Morse, J. Pan, W. Poh, A. Schilling, 
-<a href="https://arxiv.org/pdf/1911.08732.pdf">
-<i>A crystal on decreasing factorizations in the 0-Hecke monoid</i></a>.
-Electronic J Comb. 27(2) (2020).
-
-<li> J. Blasiak, J. Morse, A. Pun, and D. Summers, 
-<a href="https://arxiv.org/pdf/1804.03701.pdf">
-<i>Catalan functions and
-k-Schur positivity</i></a>. J Amer Math Soc, 32 (2019) 921--963.
-
-<li> J. Morse and R. Kaliszewski, 
-<a href="https://arxiv.org/pdf/1710.00801.pdf">
-<i>Colorful combinatorics of Macdonald polynomials</i></a>.
-European J of Comb, 81 (2019), 354-377.
-
-</li>
-</ul>
-
-
-      </TH>
-   </TR>
-
-
-
-
-										
-
-<p>
-
-
-
-
-
-
-</TD>
-</tr>
-												     
-
-<TD BGCOLOR="pink">
-<FONT FACE="arial,helvetica" COLOR="pink" >
-</FONT>
-</TD>
-<TR> <TD><p><p></TD> </TR> 
-												       </TABLE>
-
-												       </TD>
-												       </TR>
+</body>
+</html>
