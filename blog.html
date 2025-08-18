@@ -1,11 +1,187 @@
+<!DOCTYPE html>
 <html>
-<!-- Catalanimal Resource Page -->
 <head>
-<title>Catalanimal Resources</title>
+  <title>Jennifer Morse Math</title>
+  <meta name="Morse" content="Morse Webpage">
+  <style>
+    body {
+      background-color: lightgray;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    .section {
+      border: 2px solid black;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: white;
+    }
+    h2 {
+      margin-top: 0;
+      color: black;
+    }
+    img {
+      border: 2px solid black;
+      height: 200px;
+      margin-right: 20px;
+    }
+    .profile {
+      display: flex;
+      align-items: flex-start;
+    }
+    .profile-info {
+      max-width: 600px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .hidden {
+      display: none;
+    }
+    .toggle-btn {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #eee;
+      border: 1px solid #999;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
-<!-- The information between the BODY and /BODY tags is displayed.-->
+
 <body>
-<h1>Catalanimal Resources</h1>
+
+<!-- Section 1: Name, Address, Photo -->
+<div class="section">
+  <h2>Jennifer Morse</h2>
+  <div class="profile">
+    <img src="./kid.jpg" alt="Profile photo">
+    <div class="profile-info">
+      Professor <br>
+      <a href="http://www.math.virginia.edu/">Department of Mathematics</a><br>
+      University of Virginia<br>
+      141 Cabell Drive<br>
+      Charlottesville, VA 22904<br>
+      U.S.A. <br><br>
+      <i>Office: Kerchof 206 <br>
+      Email: morsej123 at gmail dot com</i>
+    </div>
+  </div>
+</div>
+
+<!-- Section 2: Research and Grants -->
+<div class="section">
+  <h2>Research</h2>
+  Algebraic Combinatorics
+  <p>
+    <a href="https://arxiv.org/search/?query=Morse%2C+Jennifer&searchtype=author&abstracts=show&order=-announced_date_first&size=50">Publications</a>
+  </p>
+  <p>
+    Generous support from: <br>
+    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2154281&HistoricalAwards=false">National Science Foundation</a><br>
+    <a href="https://www.simonsfoundation.org/2021/02/04/2021-simons-fellows-in-mathematics-and-theoretical-physics-announced/">Simons Foundation</a>
+  </p>
+</div>
+
+<!-- Section 3: Upcoming Conferences -->
+<div class="section">
+  <h2>Upcoming Conferences</h2>
+  <ul id="conference-list">
+    <li>
+      <a href="http://fpsac.org/">Formal Power Series and Algebraic Combinatorics</a><br>
+      <a href="https://www.math.sci.hokudai.ac.jp/sympo/fpsac2025/">Hokkaido University</a>, Sapporo, Japan, July 21–25, 2025
+    </li>
+    <li>
+      <a href="https://sites.google.com/view/coinvariantrings2025/">New perspectives of coinvariant rings</a><br>
+      RIMS, Kyoto University, July 14–18, 2025
+    </li>
+    <li>
+      <a href="https://qtcombinatoricsincortona.ulb.be/">qt-Combinatorics in Algebra, Geometry and Topology</a><br>
+      Cortona, Italy, June 9–13, 2025
+    </li>
+
+    <!-- Hidden conferences start here -->
+    <div id="more-conferences" class="hidden">
+      <li>
+        <a href="https://www.albany.edu/~cz954339/2025China/CIM.html">International Workshop on Schubert Calculus, Representation Theory, and Spectral Theory</a><br>
+        Nankai University, Tianjin, China, May 26–30, 2025
+      </li>
+      <li>
+        <a href="https://sites.google.com/ncsu.edu/conf-quantum-groups-rep2024/home">Quantum Groups and Representation Theory</a><br>
+        NCSU, Raleigh, NC, Oct 12–15, 2024
+      </li>
+      <li>
+        <a href="https://fpsac2024.rub.de/">FPSAC 2024</a>, Bochum, Germany, July 22–26, 2024
+      </li>
+      <li>
+        <a href="https://math.virginia.edu/ims/workshop-spring-2024/">Quantum structures in Lie Theory</a>, UVA, March 1–3, 2024
+      </li>
+      <li>
+        <a href="https://math.virginia.edu/random-lie-2024/">Randomness and Lie theoretic structures</a>, UVA, March 4–5, 2024
+      </li>
+      <!-- … keep adding your other <li> items here … -->
+    </div>
+  </ul>
+  <button class="toggle-btn" onclick="toggleConferences()">Show more</button>
+</div>
+
+<!-- Section 4: Publications -->
+<div class="section">
+  <h2>Recent Publications</h2>
+  <ul>
+    <li>
+      J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/pdf/2506.09015"><i>Flagged LLT polynomials, nonsymmetric plethysm, and nonsymmetric Macdonald polynomials</i></a> (2025).
+    </li>
+    <li>
+      J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/pdf/2112.07070.pdf"><i>Dens, nests, and the Loehr-Warrington conjecture</i></a>.
+      J Amer Math Soc (2025).
+    </li>
+    <li>
+      J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/abs/2307.06517"><i>A raising operator formula for Macdonald polynomials</i></a>.
+      Forum of Math, Sigma (2025).
+    </li>
+    <li>
+      J. Blasiak, M. Haiman, J. Morse, A. Pun, and G. Seelinger,
+      <a href="https://arxiv.org/pdf/2112.07063.pdf"><i>LLT polynomials in the Schiffmann algebra</i></a>.
+      Crelle’s Journal, 811 (2024).
+    </li>
+    <li>
+      J. Blasiak, J. Morse and A. Pun,
+      <a href="https://arxiv.org/pdf/2007.04952.pdf"><i>Demazure crystals and the Schur positivity of Catalan functions</i></a>.
+      Invent. Math. (2024).
+    </li>
+    <!-- ✅ Keep all your other publication <li> items here -->
+  </ul>
+</div>
+
+<script>
+  function toggleConferences() {
+    const more = document.getElementById("more-conferences");
+    const btn = document.querySelector(".toggle-btn");
+    if (more.classList.contains("hidden")) {
+      more.classList.remove("hidden");
+      btn.textContent = "Show less";
+    } else {
+      more.classList.add("hidden");
+      btn.textContent = "Show more";
+    }
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
 <p>Be <b>bold</b> Documents </p>
 <ul>
 <li><a href="https://annapunying.wixsite.com/punying-math/projects-3">Notes with examples</a> in Anna's Web site.</p></li>
